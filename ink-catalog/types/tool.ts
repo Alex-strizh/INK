@@ -1,19 +1,22 @@
 export interface ToolItem {
-  sku: string;               // Артикул (QV90-US4D040)
-  series: string;            // Серия (QV90-US4)
-  category: string;          // Фрезерный инструмент
-  sub_category: string;      // Например: "Фасочные фрезы"
-  main_materials: string[];  // ['P', 'M', 'K']
-  sub_materials: string[];   // ['N']
-  operations: string[];      // ['Снятие фасок', 'Фрезерование под углом']
+  sku: string;
+  series: string;
+  category: "Монолитный" | "Корпусной"; // Глобальный тип
   
-  // Жесткие базовые параметры
-  lf: number;                // Общая длина (есть всегда)
-  dcon: number;              // Диаметр хвостовика (есть всегда)
-  z: number;                 // Количество зубьев (есть всегда)
-  type: number;              // Тип конструкции (есть всегда)
+  // Конкретный тип инструмента для переключения таблиц:
+  tool_type: "flat_mills" | "chamfer_mills" | "ball_nose" | "drills" | "taps" | "thread_mills";
+  
+  sub_category: string;      // Пояснение (например, "Фасочные фрезы 90°")
+  main_materials: string[];
+  sub_materials: string[];
+  operations: string[];
+  
+  // Базовые параметры, которые есть везде, но выводятся опционально
+  lf?: number;
+  dcon?: number;
+  z?: number;
+  type?: number;
 
-  // ГИБКАЯ ГЕОМЕТРИЯ: любой набор параметров "Имя: Значение"
-  // Сюда parser.py будет складывать специфичные для серии столбцы: DC, D1, LU, DCX, PRFA и т.д.
-  geometry: Record<string, number | string>; 
+  // Любая специфичная геометрия из PDF (DC, DCX, PRFA, RE, LU)
+  geometry: Record<string, number | string>;
 }

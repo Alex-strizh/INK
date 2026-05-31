@@ -19,6 +19,10 @@ export default function ToolModal({ tool, onClose }: any) {
   const pdfFileName = tool.series ? `${tool.series.toLowerCase().trim()}.pdf` : 'catalog.pdf';
   const geomObj = tool.geometry || {};
 
+  // Определяем путь к картинке эскиза на основе типа конструкции фрезы
+  const typeNumber = tool.type || 1;
+  const sketchImagePath = `/images/type${typeNumber}.png`;
+
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50 backdrop-blur-sm">
       <div className="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-gray-100 flex flex-col">
@@ -34,16 +38,37 @@ export default function ToolModal({ tool, onClose }: any) {
 
         {/* Тело карточки */}
         <div className="p-6 space-y-6 flex-1 text-gray-900">
-          {/* Схема размеров */}
-          <div className="bg-gray-100 rounded-xl p-6 border border-dashed border-gray-300 flex flex-col items-center justify-center">
-            <span className="text-4xl">⚙️</span>
-            <span className="text-sm font-bold text-gray-700 mt-2">Эскиз инструмента</span>
-            <div className="flex flex-wrap gap-4 mt-3 font-mono text-xs text-gray-500 bg-white px-3 py-1 rounded-md border shadow-sm justify-center">
+          
+          {/* ИНТЕГРИРОВАННЫЙ ЭСКИЗ ГЕОМЕТРИИ ИЗ КАТАЛОГА */}
+          <div className="bg-white rounded-xl p-4 border border-gray-200 shadow-sm flex flex-col items-center justify-center relative overflow-hidden group">
+            
+            {/* Картинка эскиза с автоматическим переключением */}
+            <div className="h-32 w-full max-w-[280px] flex items-center justify-center my-2 p-1">
+              <img 
+                src={sketchImagePath} 
+                alt={`Эскиз геометрии фрезы Тип ${typeNumber}`}
+                className="max-h-full max-w-full object-contain filter drop-shadow-sm group-hover:scale-[1.03] transition-transform duration-300"
+                onError={(e: any) => {
+                  // Фолбэк на случай, если картинка ещё не загружена в public/images
+                  e.target.style.display = 'none';
+                  const parent = e.target.parentNode;
+                  if (parent) {
+                    const icon = document.createElement('span');
+                    icon.className = 'text-5xl';
+                    icon.innerText = '⚙️';
+                    parent.appendChild(icon);
+                  }
+                }}
+              />
+            </div>
+
+            {/* Быстрые плашки размеров под картинкой */}
+            <div className="flex flex-wrap gap-3 mt-2 font-mono text-xs text-gray-600 bg-gray-50 px-3 py-1.5 rounded-lg border w-full justify-center shadow-inner">
               <span>LF = {tool.lf}</span>
               <span>DCON = {tool.dcon}</span>
               {Object.entries(geomObj).map(([key, value]: any) => {
-                const shortKey = key.split(' ')[0];
-                return <span key={key}>{shortKey} = {value}</span>;
+                const shortKey = key.split(' ');
+                return <span key={key} className="border-l pl-3 first:border-0 first:pl-0 font-bold text-gray-800">{shortKey} = {value}</span>;
               })}
             </div>
           </div>
