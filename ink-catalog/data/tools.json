@@ -1,1395 +1,1113 @@
 [
   {
-    "id": "INK_QCN-UM2D030",
     "sku": "QCN-UM2D030",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 3.0,
-      "APMX": 6.0,
-      "LF": 45.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D031",
     "sku": "QCN-UM2D031",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 3.1,
-      "APMX": 6.2,
-      "LF": 45.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D032",
     "sku": "QCN-UM2D032",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 3.2,
-      "APMX": 6.4,
-      "LF": 45.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D033",
     "sku": "QCN-UM2D033",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 3.3,
-      "APMX": 6.6,
-      "LF": 45.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D034",
     "sku": "QCN-UM2D034",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 3.4,
-      "APMX": 6.8,
-      "LF": 45.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D035",
     "sku": "QCN-UM2D035",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 3.5,
-      "APMX": 7.0,
-      "LF": 45.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D036",
     "sku": "QCN-UM2D036",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 3.6,
-      "APMX": 7.2,
-      "LF": 45.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D037",
     "sku": "QCN-UM2D037",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 3.7,
-      "APMX": 7.4,
-      "LF": 45.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D038",
     "sku": "QCN-UM2D038",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 3.8,
-      "APMX": 7.6,
-      "LF": 45.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D039",
     "sku": "QCN-UM2D039",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 3.9,
-      "APMX": 7.8,
-      "LF": 45.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D040",
     "sku": "QCN-UM2D040",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 4.0,
-      "APMX": 8.0,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D041",
     "sku": "QCN-UM2D041",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 4.1,
-      "APMX": 8.2,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D042",
     "sku": "QCN-UM2D042",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 4.2,
-      "APMX": 8.4,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D043",
     "sku": "QCN-UM2D043",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 4.3,
-      "APMX": 8.6,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D044",
     "sku": "QCN-UM2D044",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 4.4,
-      "APMX": 8.8,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D045",
     "sku": "QCN-UM2D045",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 4.5,
-      "APMX": 9.0,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D046",
     "sku": "QCN-UM2D046",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 4.6,
-      "APMX": 9.2,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D047",
     "sku": "QCN-UM2D047",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 4.7,
-      "APMX": 9.4,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D048",
     "sku": "QCN-UM2D048",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 4.8,
-      "APMX": 9.6,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D049",
     "sku": "QCN-UM2D049",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 4.9,
-      "APMX": 9.8,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D050",
     "sku": "QCN-UM2D050",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 5.0,
-      "APMX": 10.0,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D051",
     "sku": "QCN-UM2D051",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 5.1,
-      "APMX": 10.2,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D052",
     "sku": "QCN-UM2D052",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 5.2,
-      "APMX": 10.4,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D053",
     "sku": "QCN-UM2D053",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 5.3,
-      "APMX": 10.6,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D054",
     "sku": "QCN-UM2D054",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 5.4,
-      "APMX": 10.8,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D055",
     "sku": "QCN-UM2D055",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 5.5,
-      "APMX": 11.0,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D056",
     "sku": "QCN-UM2D056",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 5.6,
-      "APMX": 11.2,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D057",
     "sku": "QCN-UM2D057",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 5.7,
-      "APMX": 11.4,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D058",
     "sku": "QCN-UM2D058",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 5.8,
-      "APMX": 11.6,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D059",
     "sku": "QCN-UM2D059",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 5.9,
-      "APMX": 11.8,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D060",
     "sku": "QCN-UM2D060",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 6.0,
-      "APMX": 12.0,
-      "LF": 50.0,
-      "DCON": 6.0,
-      "ZEFP": 2,
-      "type": 2
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D065",
     "sku": "QCN-UM2D065",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 6.5,
-      "APMX": 13.0,
-      "LF": 60.0,
-      "DCON": 8.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D070",
     "sku": "QCN-UM2D070",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 7.0,
-      "APMX": 14.0,
-      "LF": 60.0,
-      "DCON": 8.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D075",
     "sku": "QCN-UM2D075",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 7.5,
-      "APMX": 15.0,
-      "LF": 60.0,
-      "DCON": 8.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D080",
     "sku": "QCN-UM2D080",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 8.0,
-      "APMX": 16.0,
-      "LF": 60.0,
-      "DCON": 8.0,
-      "ZEFP": 2,
-      "type": 2
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D085",
     "sku": "QCN-UM2D085",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 8.5,
-      "APMX": 17.0,
-      "LF": 70.0,
-      "DCON": 10.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D090",
     "sku": "QCN-UM2D090",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 9.0,
-      "APMX": 18.0,
-      "LF": 70.0,
-      "DCON": 10.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D095",
     "sku": "QCN-UM2D095",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 9.5,
-      "APMX": 19.0,
-      "LF": 70.0,
-      "DCON": 10.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D100",
     "sku": "QCN-UM2D100",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 10.0,
-      "APMX": 20.0,
-      "LF": 70.0,
-      "DCON": 10.0,
-      "ZEFP": 2,
-      "type": 2
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D110",
     "sku": "QCN-UM2D110",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 11.0,
-      "APMX": 22.0,
-      "LF": 75.0,
-      "DCON": 12.0,
-      "ZEFP": 2,
-      "type": 1
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D120",
     "sku": "QCN-UM2D120",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 12.0,
-      "APMX": 24.0,
-      "LF": 75.0,
-      "DCON": 12.0,
-      "ZEFP": 2,
-      "type": 2
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D160",
     "sku": "QCN-UM2D160",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 16.0,
-      "APMX": 32.0,
-      "LF": 90.0,
-      "DCON": 16.0,
-      "ZEFP": 2,
-      "type": 2
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D180H16",
     "sku": "QCN-UM2D180H16",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 18.0,
-      "APMX": 36.0,
-      "LF": 90.0,
-      "DCON": 16.0,
-      "ZEFP": 2,
-      "type": 3
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
-      "M",
-      "K"
+      "M"
     ],
     "sub_materials": [
-      "N",
-      "S"
+      "K",
+      "N"
     ],
     "operations": [
       "Уступ",
       "Паз",
       "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Наклонное врезание"
+    ],
+    "geometry": {}
   },
   {
-    "id": "INK_QCN-UM2D200",
     "sku": "QCN-UM2D200",
-    "brand": "ИНК",
-    "main_category": "Фрезы",
-    "sub_category": "Фрезы монолитные",
     "series": "QCN-UM2",
-    "attributes": {
-      "DC": 20.0,
-      "APMX": 40.0,
-      "LF": 100.0,
-      "DCON": 20.0,
-      "ZEFP": 2,
-      "type": 2
-    },
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные стандартные",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M"
+    ],
+    "sub_materials": [
+      "K",
+      "N"
+    ],
+    "operations": [
+      "Уступ",
+      "Паз",
+      "Карман",
+      "Наклонное врезание"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D030",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
     "main_materials": [
       "P",
       "M",
@@ -1400,11 +1118,369 @@
       "S"
     ],
     "operations": [
-      "Уступ",
-      "Паз",
-      "Карман",
-      "Наклонное врезание",
-      "Спиральное врезание"
-    ]
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D035",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D040",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D045",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D050",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D060",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D070",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D080",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D090",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D100",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D110",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D120",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D140",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D150",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D160",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
+  },
+  {
+    "sku": "QCF-UL4D200",
+    "series": "QNH-UM4",
+    "category": "Фрезерный инструмент",
+    "sub_category": "Фрезы монолитные удлиненные с шейкой",
+    "lf": 50.0,
+    "dcon": 6.0,
+    "z": 4,
+    "type": 1,
+    "main_materials": [
+      "P",
+      "M",
+      "K"
+    ],
+    "sub_materials": [
+      "N",
+      "S"
+    ],
+    "operations": [
+      "Фрезерование пазов",
+      "Глубокие уступы"
+    ],
+    "geometry": {}
   }
 ]
