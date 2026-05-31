@@ -5,7 +5,6 @@ import toolsData from '../data/tools.json';
 import { ToolItem } from '../types/tool';
 import ToolModal from './ToolModal';
 
-// Конфигурация кнопок материалов ISO 513 + Новые группы O и U
 const isoMaterials = [
   { code: 'P', name: 'Стали', bg: 'bg-blue-600', text: 'text-white' },
   { code: 'M', name: 'Нержавейка', bg: 'bg-yellow-500', text: 'text-gray-900' },
@@ -46,7 +45,8 @@ export default function ToolTable() {
   const filteredTools = tools.filter(tool => {
     if (!tool.attributes) return false;
     const matchSearch = tool.sku.toLowerCase().includes(search.toLowerCase());
-    const matchDc = selectedDc === '' || tool.attributes.DC === parseFloat(selectedDc);
+    const parsedDc = parseFloat(selectedDc);
+    const matchDc = selectedDc === '' || isNaN(parsedDc) || tool.attributes.DC === parsedDc;
     const matchType = selectedType === '' || tool.attributes.type === parseInt(selectedType);
     const matchOperation = selectedOperation === '' || (tool.operations && tool.operations.includes(selectedOperation));
     const matchMaterial = selectedMaterial === '' || 
@@ -58,7 +58,6 @@ export default function ToolTable() {
 
   return (
     <div className="space-y-4">
-      {/* КНОПКИ МАТЕРИАЛОВ */}
       <div className="bg-white p-4 rounded-xl border shadow-sm space-y-2">
         <label className="text-xs font-bold text-gray-500 uppercase tracking-wider block">Обрабатываемый материал (ISO 513)</label>
         <div className="flex flex-wrap gap-2">
@@ -86,36 +85,50 @@ export default function ToolTable() {
         </div>
       </div>
 
-      {/* ФИЛЬТРЫ */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 bg-white p-4 rounded-xl border shadow-sm">
         <div className="flex flex-col space-y-1">
           <label className="text-xs font-bold text-gray-500 uppercase">Поиск по коду</label>
           <input type="text" placeholder="Введите артикул..." className="w-full bg-gray-50 border rounded-lg px-3 py-2 text-sm text-gray-900 focus:outline-none focus:border-orange-500" value={search} onChange={(e) => setSearch(e.target.value)} />
         </div>
+        
         <div className="flex flex-col space-y-1">
           <label className="text-xs font-bold text-gray-500 uppercase">Диаметр DC (мм)</label>
-          <select value={selectedDc} onChange={(e) => setSelectedDc(e.target.value)} className="w-full bg-gray-50 border rounded-lg px-3 py-2 text-sm text-gray-900 focus:outline-none focus:border-orange-500">
-            <option value="">Все диаметры</option>
-            {uniqueDcValues.map(dc => <option key={dc} value={dc}>{dc} мм</option>)}
-          </select>
+          <div className="relative">
+            <input
+              type="text"
+              list="dc-options"
+              placeholder="Выбрать или ввести..."
+              value={selectedDc}
+              onChange={(e) => setSelectedDc(e.target.value)}
+              className="w-full bg-gray-50 border rounded-lg px-3 py-2 text-sm text-gray-900 focus:outline-none focus:border-orange-500 rounded-r-lg pr-8"
+            />
+            <datalist id="dc-options">
+              {uniqueDcValues.map(dc => (
+                <option key={dc} value={dc}>{dc} мм</option>
+              ))}
+            </datalist>
+            {selectedDc && (
+              <button onClick={() => setSelectedDc('')} className="absolute right-2.5 top-2.5 text-gray-400 hover:text-gray-600 text-sm font-bold">×</button>
+            )}
+          </div>
         </div>
+
         <div className="flex flex-col space-y-1">
           <label className="text-xs font-bold text-gray-500 uppercase">Тип обработки</label>
-          <select value={selectedOperation} onChange={(e) => setSelectedOperation(e.target.value)} className="w-full bg-gray-50 border rounded-lg px-3 py-2 text-sm text-gray-900 focus:outline-none focus:border-orange-500">
+          <select value={selectedOperation} onChange={(e) => setSelectedOperation(e.target.value)} className="w-full bg-gray-50 border rounded-lg px-3 py-2 text-sm text-gray-900 focus:outline-none focus:border-orange-500 cursor-pointer">
             <option value="">Все операции</option>
             {uniqueOperations.map(op => <option key={op} value={op}>{op}</option>)}
           </select>
         </div>
         <div className="flex flex-col space-y-1">
           <label className="text-xs font-bold text-gray-500 uppercase">Конструкция</label>
-          <select value={selectedType} onChange={(e) => setSelectedType(e.target.value)} className="w-full bg-gray-50 border rounded-lg px-3 py-2 text-sm text-gray-900 focus:outline-none focus:border-orange-500">
+          <select value={selectedType} onChange={(e) => setSelectedType(e.target.value)} className="w-full bg-gray-50 border rounded-lg px-3 py-2 text-sm text-gray-900 focus:outline-none focus:border-orange-500 cursor-pointer">
             <option value="">Все типы</option>
             {uniqueTypeValues.map(type => <option key={type} value={type}>Тип {type}</option>)}
           </select>
         </div>
       </div>
 
-      {/* СЧЕТЧИК */}
       <div className="flex justify-between items-center px-1 text-xs text-gray-500">
         <span>Найдено позиций: <span className="text-gray-900 font-bold">{filteredTools.length}</span></span>
         {(selectedDc || selectedType || selectedOperation || selectedMaterial || search) && (
@@ -123,7 +136,6 @@ export default function ToolTable() {
         )}
       </div>
 
-      {/* ТАБЛИЦА */}
       <div className="border rounded-xl overflow-hidden shadow-sm bg-white overflow-x-auto">
         <table className="w-full text-left border-collapse text-sm">
           <thead className="bg-gray-800 text-white text-xs uppercase tracking-wider">
@@ -149,11 +161,15 @@ export default function ToolTable() {
                 <td className="p-3 text-center text-gray-600 text-xs">Тип {tool.attributes?.type ?? '-'}</td>
               </tr>
             ))}
+            {filteredTools.length === 0 && (
+              <tr>
+                <td colSpan={7} className="p-8 text-center text-gray-400 bg-gray-50">Инструменты по заданным критериям не найдены.</td>
+              </tr>
+            )}
           </tbody>
         </table>
       </div>
 
-      {/* МОДАЛКА */}
       {activeTool && <ToolModal tool={activeTool} onClose={() => setActiveTool(null)} />}
     </div>
   );
