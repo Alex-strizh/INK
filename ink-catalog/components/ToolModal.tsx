@@ -8,17 +8,23 @@ interface ToolModalProps {
   onClose: () => void;
 }
 
+// Настройка цветов и названий материалов, включая новые группы O и U
 const materialColors: Record<string, { bg: string; text: string; label: string }> = {
-  P: { bg: 'bg-blue-600', text: 'text-white', label: 'Сталь (P)' },
-  M: { bg: 'bg-yellow-500', text: 'text-gray-900', label: 'Нержавеющая сталь (M)' },
-  K: { bg: 'bg-red-600', text: 'text-white', label: 'Чугун (K)' },
+  U: { bg: 'bg-purple-600', text: 'text-white', label: 'Универсальное применение (U)' },
+  P: { bg: 'bg-blue-600', text: 'text-white', label: 'Стали (P)' },
+  M: { bg: 'bg-yellow-500', text: 'text-gray-900', label: 'Аустенитная нержавеющая сталь (M)' },
+  K: { bg: 'bg-red-600', text: 'text-white', label: 'Чугуны (K)' },
   N: { bg: 'bg-green-600', text: 'text-white', label: 'Цветные металлы (N)' },
   S: { bg: 'bg-orange-600', text: 'text-white', label: 'Жаропрочные сплавы (S)' },
-  H: { bg: 'bg-gray-800', text: 'text-white', label: 'Закаленная сталь (H)' },
+  H: { bg: 'bg-gray-800', text: 'text-white', label: 'Закалённые материалы >45HRC (H)' },
+  O: { bg: 'bg-teal-600', text: 'text-white', label: 'Неметаллы / Пластики (O)' },
 };
 
 export default function ToolModal({ tool, onClose }: ToolModalProps) {
   if (!tool) return null;
+
+  // Автоматическое имя файла по серии фрезы (например, QCN-UM2 -> qcn-um2.pdf)
+  const pdfFileName = tool.series ? `${tool.series.toLowerCase().trim()}.pdf` : 'catalog.pdf';
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50 backdrop-blur-sm">
@@ -38,12 +44,12 @@ export default function ToolModal({ tool, onClose }: ToolModalProps) {
           {/* Схема размеров */}
           <div className="bg-gray-100 rounded-xl p-6 border border-dashed border-gray-300 flex flex-col items-center justify-center">
             <span className="text-4xl">⚙️</span>
-            <span className="text-sm font-bold text-gray-700 mt-2">Эскиз工具</span>
+            <span className="text-sm font-bold text-gray-700 mt-2">Эскиз инструмента</span>
             <div className="flex gap-4 mt-3 font-mono text-xs text-gray-500 bg-white px-3 py-1 rounded-md border shadow-sm">
-              <span>DC = {tool.attributes.DC}</span>
-              <span>APMX = {tool.attributes.APMX}</span>
-              <span>LF = {tool.attributes.LF}</span>
-              <span>DCON = {tool.attributes.DCON}</span>
+              <span>DC = {tool.attributes?.DC}</span>
+              <span>APMX = {tool.attributes?.APMX}</span>
+              <span>LF = {tool.attributes?.LF}</span>
+              <span>DCON = {tool.attributes?.DCON}</span>
             </div>
           </div>
 
@@ -51,25 +57,22 @@ export default function ToolModal({ tool, onClose }: ToolModalProps) {
           <div>
             <h3 className="text-xs font-bold uppercase text-gray-400 tracking-wider mb-3">Технические параметры</h3>
             <div className="grid grid-cols-2 gap-y-3 gap-x-6 border p-4 rounded-xl bg-gray-50/50 text-sm">
-              <div className="flex justify-between border-b pb-1.5"><span className="text-gray-500">Диаметр резания (DC)</span> <span className="font-mono font-bold text-gray-900">{tool.attributes.DC} мм</span></div>
-              <div className="flex justify-between border-b pb-1.5"><span className="text-gray-500">Длина резания (APMX)</span> <span className="font-mono font-bold text-gray-900">{tool.attributes.APMX} мм</span></div>
-              <div className="flex justify-between border-b pb-1.5"><span className="text-gray-500">Общая длина (LF)</span> <span className="font-mono font-bold text-gray-900">{tool.attributes.LF} мм</span></div>
-              <div className="flex justify-between border-b pb-1.5"><span className="text-gray-500">Диаметр хвостовика (DCON)</span> <span className="font-mono font-bold text-gray-900">{tool.attributes.DCON} мм</span></div>
-              <div className="flex justify-between border-b pb-1.5"><span className="text-gray-500">Количество зубьев (Z)</span> <span className="font-mono font-bold text-gray-900">{tool.attributes.ZEFP}</span></div>
-              <div className="flex justify-between border-b pb-1.5"><span className="text-gray-500">Конструкция</span> <span className="font-sans font-medium text-gray-700">Тип {tool.attributes.type}</span></div>
+              <div className="flex justify-between border-b pb-1.5"><span className="text-gray-500">Диаметр резания (DC)</span> <span className="font-mono font-bold text-gray-900">{tool.attributes?.DC} мм</span></div>
+              <div className="flex justify-between border-b pb-1.5"><span className="text-gray-500">Длина резания (APMX)</span> <span className="font-mono font-bold text-gray-900">{tool.attributes?.APMX} мм</span></div>
+              <div className="flex justify-between border-b pb-1.5"><span className="text-gray-500">Общая длина (LF)</span> <span className="font-mono font-bold text-gray-900">{tool.attributes?.LF} мм</span></div>
+              <div className="flex justify-between border-b pb-1.5"><span className="text-gray-500">Диаметр хвостовика (DCON)</span> <span className="font-mono font-bold text-gray-900">{tool.attributes?.DCON} мм</span></div>
+              <div className="flex justify-between border-b pb-1.5"><span className="text-gray-500">Количество зубьев (Z)</span> <span className="font-mono font-bold text-gray-900">{tool.attributes?.ZEFP}</span></div>
+              <div className="flex justify-between border-b pb-1.5"><span className="text-gray-500">Конструкция</span> <span className="font-sans font-medium text-gray-700">Тип {tool.attributes?.type}</span></div>
             </div>
           </div>
 
-          {/* ТЕХНОЛОГИЧЕСКИЕ ОПЕРАЦИИ (ВОЗВРАЩЕНО НА МЕСТО) */}
+          {/* ТЕХНОЛОГИЧЕСКИЕ ОПЕРАЦИИ */}
           {tool.operations && tool.operations.length > 0 && (
             <div>
               <h3 className="text-xs font-bold uppercase text-gray-400 tracking-wider mb-2">Технологические операции (Тип обработки)</h3>
               <div className="flex flex-wrap gap-1.5">
                 {tool.operations.map(op => (
-                  <span 
-                    key={op} 
-                    className="text-xs font-bold px-2.5 py-1 bg-blue-50 text-blue-700 rounded-lg border border-blue-100 shadow-sm"
-                  >
+                  <span key={op} className="text-xs font-bold px-2.5 py-1 bg-blue-50 text-blue-700 rounded-lg border border-blue-100 shadow-sm">
                     ✓ {op}
                   </span>
                 ))}
@@ -82,7 +85,7 @@ export default function ToolModal({ tool, onClose }: ToolModalProps) {
             <h3 className="text-xs font-bold uppercase text-gray-400 tracking-wider mb-3">Область применения (ISO 513)</h3>
             <div className="flex flex-col space-y-4">
               
-              {/* Блок основного применения */}
+              {/* Основное применение */}
               {tool.main_materials && tool.main_materials.length > 0 && (
                 <div className="space-y-2">
                   <span className="text-xs font-bold text-green-700 bg-green-50 px-2 py-1 rounded border border-green-200">◎ Основное применение</span>
@@ -100,7 +103,7 @@ export default function ToolModal({ tool, onClose }: ToolModalProps) {
                 </div>
               )}
 
-              {/* Блок возможного применения */}
+              {/* Возможное применение */}
               {tool.sub_materials && tool.sub_materials.length > 0 && (
                 <div className="space-y-2 pt-2">
                   <span className="text-xs font-bold text-amber-700 bg-amber-50 px-2 py-1 rounded border border-amber-200">● Возможное применение</span>
@@ -123,9 +126,22 @@ export default function ToolModal({ tool, onClose }: ToolModalProps) {
         </div>
 
         {/* Футер */}
-        <div className="p-4 border-t bg-gray-50 rounded-b-2xl flex justify-end gap-3">
-          <button onClick={onClose} className="px-4 py-2 border rounded-xl bg-white text-sm font-semibold text-gray-700 hover:bg-gray-50 transition-colors shadow-sm">Закрыть</button>
-          <button onClick={() => alert(`Добавлено`)} className="px-4 py-2 rounded-xl bg-orange-500 text-white text-sm font-semibold hover:bg-orange-600 transition-colors shadow-sm">Добавить в спецификацию</button>
+        <div className="p-4 border-t bg-gray-50 rounded-b-2xl flex flex-wrap justify-between items-center gap-3">
+          {/* Ссылка на скачивание PDF каталога */}
+          <a 
+            href={`/pdf/${pdfFileName}`}
+            download
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 border rounded-xl bg-white text-sm font-semibold text-blue-600 border-blue-200 hover:bg-blue-50 transition-colors shadow-sm flex items-center gap-2"
+          >
+            📄 PDF Каталог серии
+          </a>
+
+          <div className="flex gap-3">
+            <button onClick={onClose} className="px-4 py-2 border rounded-xl bg-white text-sm font-semibold text-gray-700 hover:bg-gray-50 transition-colors shadow-sm">Закрыть</button>
+            <button onClick={() => alert(`Добавлено`)} className="px-4 py-2 rounded-xl bg-orange-500 text-white text-sm font-semibold hover:bg-orange-600 transition-colors shadow-sm">Добавить в спецификацию</button>
+          </div>
         </div>
       </div>
     </div>
